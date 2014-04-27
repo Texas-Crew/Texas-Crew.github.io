@@ -2,7 +2,7 @@
 
 // these people will get the form information
 $recipients = array(
-    "rowfortexas@gmail.com",
+    //"rowfortexas@gmail.com",
 	"prakharg105@gmail.com"
 );
 
