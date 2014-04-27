@@ -19,6 +19,6 @@ $message .= "Number of Rowers Needed: " . $_REQUEST['numofrowers'] . "\n";
 mail(join(",", $recipients), 'Rent-A-Rower Form', $message, "From: " . $_REQUEST['email']);
 
 // redirect to the homepage
-header( "Location: redirect.php" );
+header( "Location: contact.html" );
 
 ?>
