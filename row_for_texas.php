@@ -11,8 +11,9 @@ $recipients = array(
 $message = "Recruiting Form";
 $message = "Name: " . $_REQUEST['name'] . "\n";
 $message .= "Email: " . $_REQUEST['email'] . "\n";
-$message .= "Year: " . $_REQUEST['year'] . "\n";
-$message .= "Gender: " . $_REQUEST['gender'] . "\n";
+
+$message .= "Subject: " . $_REQUEST['subject'] . "\n";
+
 $message .= "Message: " . $_REQUEST['message'] . "\n";
 
 mail(join(",", $recipients), 'Recruiting Form', $message, "From: " . $_REQUEST['email']);
