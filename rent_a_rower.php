@@ -3,7 +3,7 @@
 // these people will get the form information
 $recipients = array(
     "rowfortexas@gmail.com",
-	"stephaneasotcheff@utexas.edu"
+	"prakharg105@gmail.com"
 );
 
 $message = "Rent-A-Rower";
