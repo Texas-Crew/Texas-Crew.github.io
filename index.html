@@ -16,14 +16,26 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		 <!-- facebook JS sdk for social plugins -->
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=209933125716698";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
+
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
+
 	<body class="index loading">
 	
 		<!-- Header -->
@@ -37,7 +49,7 @@
 							<ul>
 								<li><a href="Roster.html">Roster</a></li>
 								<li><a href="Recruiting.html">Recruiting/FAQ</a></li>
-								<li><a href="no-sidebar.html">Gallery</a></li>
+								<li><a href="Gallery.html">Gallery</a></li>
 								<li><a href="contact.html">History</a></li>
 								<li class="submenu">
 									<a href="">Support</a>
@@ -95,15 +107,18 @@
 					<section class="wrapper style2 container special-alt">
 						<div class="row half">
 							<div class="8u" style="float:left; width:50%; margin-left:-3%">
-								<a href="#" class="image feature"><img src="images/Colin.jpg" style="width:12%;float:left; border-radius:50px;"/></a>
+								<a href="#" class="image feature"><img src="images/Colin.jpg" style="width:15%;float:left; border-radius:50px;"/></a>
 								<p style="font-size:20px; text-align: -webkit-right;margin-top:-20px">"When one rows it is not the rowing which moves the ship: rowing is only a magical ceremony by means of which one compels a demon to move the ship." Nietzsche</p>
 
 								<a href="#" class="image feature"><img src="images/Amos.jpg" style="width:15%;float:left; border-radius:50px;"/></a>
 								<p style="font-size:20px; text-align: -webkit-right;">"Bacon and eggs: The chicken made a contribution- the pig committed."</p>
 							</div>	
 							<div class="8u" style="float:right; width:50%; margin-right:-3%">
-								<a href="#" class="image feature"><img src="images/tom.jpg" style="width:13%;float:left; border-radius:50px;margin-top:3%;"/></a>	
+								<a href="#" class="image feature"><img src="images/pete.jpg" style="width:15%;float:left; border-radius:50px;margin-top:3%;"/></a>	
 								<p style="font-size:20px; text-align: -webkit-right;margin-top:100px;margin-top:-3%;">"When one rows it is not the rowing which moves the ship: rowing is only a magical ceremony by means of which one compels a demon to move the ship." Nietzsche</p>
+
+								<a href="#" class="image feature"><img src="images/tom.jpg" style="width:15%;float:left; border-radius:50px;"/></a>
+								<p style="font-size:20px; text-align: -webkit-right;">"Bacon and eggs: The chicken made a contribution- the pig committed."</p>
 									
 							</div>
 						</div>
@@ -189,266 +204,17 @@
 									<header>
 										<h3>Schedule</h3>
 									</header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 									<iframe src="https://www.google.com/calendar/embed?src=1a78gsjsiufmktlurgpg37mk40%40group.calendar.google.com&ctz=America/Chicago" style="border: 0" width="700" height="500" frameborder="0" scrolling="no"></iframe>
+									
+								</section>
+
+							</div>
+							
+						</div>
+						<div class="row">
+							<div class="6u" style="width:100%">
+							
+								<p><div class="fb-like-box" data-href="http://www.facebook.com/rowfortexas" data-width="600" data-height="600" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="false"></div></p>
 									
 								</section>
 
@@ -468,7 +234,7 @@
 				</header>
 				<footer>
 					<ul class="buttons">
-						<li><a href="#" class="button special">Fill out an Interest Form</a></li>
+						<li><a href="Recruiting.html" class="button special">View the Recruiting page</a></li>
 						<li><a href="contact.html" class="button">Contact Us</a></li>
 					</ul>
 				</footer>
