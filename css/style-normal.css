@@ -5,7 +5,11 @@
 */
 
 /* Basic */
-
+#google-desktop-view{
+	display: inline;
+}
+#google-mobi-view{
+	display: none;
 	body, input, select, textarea {
 		font-size: 13pt;
 		letter-spacing: 0.025em;
