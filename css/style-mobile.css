@@ -5,7 +5,12 @@
 */
 
 /* Basic */
-
+#google-mobi-view{
+	display: inline;
+}
+#google-desktop-view{
+	display: none;
+}
 	body {
 		min-width: 320px;
 	}
