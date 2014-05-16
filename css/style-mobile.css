@@ -9,7 +9,12 @@
 #google-mobi-view{
 	display:inline;
 }
-
+#Gallery-Mobi-view{
+	display: inline;
+}
+#Gallery-Desktop-view{
+	display: none;
+}
 /* Basic */
 
 }
