@@ -6,6 +6,9 @@
 #google-desktop-view{
 	display: none;
 }
+#google-mobi-view{
+	display:inline;
+}
 
 /* Basic */
 
