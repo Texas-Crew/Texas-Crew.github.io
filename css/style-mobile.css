@@ -140,7 +140,7 @@
 	#banner {
 		background-size: 10em, 10em, auto, cover;
 		padding: 6em 0;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../images/me.jpg"),url("images/overlay.png");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../images/me-mobi.jpg"),url("images/overlay.png");
 	}
 
 		#banner .inner {
