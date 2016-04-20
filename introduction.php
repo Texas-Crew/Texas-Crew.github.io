@@ -1,4 +1,4 @@
-
+<?php
 hr {
 	height: 2px;
 	border-style: solid;
@@ -40,3 +40,4 @@ div {
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
+?>
