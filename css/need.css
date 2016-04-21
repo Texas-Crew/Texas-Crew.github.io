@@ -1,11 +1,6 @@
 img{
    display: none
 }
-
-p.one:hover + img{ //img is a sibling
-   display: block;
-}
-
-p.two:hover img{ //image is a child
+span:hover + img{
    display: block;
 }
