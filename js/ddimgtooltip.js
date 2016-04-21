@@ -14,6 +14,7 @@ var ddimgtooltip={
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
 		tooltips[0]=["images/REggers.jpg"]
+		tooltips[1]=["images/RBen.jpg"]
 
 		return tooltips //do not remove/change this line
 	}(),
