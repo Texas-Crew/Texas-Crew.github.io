@@ -13,7 +13,7 @@ var ddimgtooltip={
 		//For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
-		tooltips[0]=["REggers.jpg"]
+		tooltips[0]=["images/REggers.jpg"]
 
 		return tooltips //do not remove/change this line
 	}(),
