@@ -1,0 +1,14 @@
+label, value
+men, -28
+men, -23
+men, -20
+men, -19
+men, -14
+men, -13
+women, -20
+women, -19
+women, -15
+women, -12
+women, -10
+women, -8
+women, -5
