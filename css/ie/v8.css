@@ -1,6 +1,6 @@
 /* Banner */
 #banner {
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/banner.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   -ms-behavior: url("css/ie/backgroundsize.min.htc"); }
